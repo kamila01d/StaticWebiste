@@ -30,7 +30,7 @@ label{
     color: white;
 }
 form {
-    border: 2px solid #f1f1f1;
+    border: 1px solid #f1f1f1;
 
 }
 input[type=text], input[type=password] {
@@ -52,4 +52,45 @@ button:hover {
 .container {
     padding: 20px;
     background-color: black;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    button {
+        background-color: saddlebrown;
+        width: 90%;
+        color: white;
+        padding: 10px;
+        margin: 10px 5px;
+        border: none;
+        cursor: pointer;
+
+    }
+    Body {
+
+        font-family: 'Inter', sans-serif;
+        height: 300vh;
+        background-color: black;
+        width: 80%;
+        margin: auto;
+
+
+    }
+}
+@media only screen and (max-width: 768px) {
+    .container {
+        padding: 10px;
+        background-color: black;
+    }
+}
+@media only screen and (max-width: 768px) {
+
+    input[type=text], input[type=password] {
+        width: 80%;
+        margin-top: 10%;
+        padding: 10px 10px;
+        display: block;
+        box-sizing: border-box;
+        margin-bottom: 10%;
+    }
 }
