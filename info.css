@@ -36,6 +36,15 @@ nav ul li
     color: white;
     font-weight: 700;
 }
+@media only screen and (max-width: 768px) {
+
+    nav ul li {
+        font-size: 15px;
+        margin-right: 10px;
+        display: inline-block;
+    }
+}
+
 
 ul li:hover {
     background: rgb(0, 0, 0);
@@ -79,8 +88,15 @@ ul li:hover {
 
 }
 .logo{
-    left: 1px;
-    max-width: 10%;
+    max-width: 20%;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .logo{
+
+        max-width: 30%;
+    }
 }
 li a {
     text-decoration: none;
